@@ -1,0 +1,165 @@
+/*ВТОРОЙ СЛАЙДЕР СТАЖИРОВКИ*/
+.slider-second-wrapper,
+.item-auto {
+    min-width: 419px;
+    min-height: 295px;
+    transition: 1s;
+}
+
+#item-auto-1 {
+	background: url(../img/office1.jpeg) center center no-repeat;
+	background-size: cover;
+}
+
+#item-auto-2 {
+	background: url(../img/office2.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+#item-auto-3 {
+	background: url(../img/office3.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.dot-wrapper {
+	bottom: -30px;
+	width: 150px;
+	height: 8px
+}
+
+.dot {
+	width: 4px;
+	height: 4px;
+	border-radius: 40px;
+	transition: .5s;
+	background: rgba(144,139,250,.5)
+}
+
+.dot-active {
+	width: 10px;
+	height: 10px;
+	background-image: -webkit-linear-gradient(#00d8ff, #0094e8),-webkit-linear-gradient(#00b7ff, #00ffe6);
+	background-image: -o-linear-gradient(#00d8ff, #0094e8),-o-linear-gradient(#00b7ff, #00ffe6);
+	background-image: linear-gradient(#00d8ff, #0094e8),linear-gradient(#00b7ff, #00ffe6)
+}
+
+.slider-bg-wrapper {
+	top: -92px;
+    width: 479px;
+    height: 479px;
+    background-color: rgba(122, 110, 244, 0.11);
+    border-radius: 50%;
+    z-index: -1
+}
+
+.slider-bg-wrapper:before,
+.slider-bg-wrapper:after {
+	content: "";
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 50%
+}
+
+.slider-bg-wrapper:after {
+	width: 337px;
+    height: 337px;
+    background-color: rgba(122,110,244,.12)
+}
+
+.slider-bg-wrapper:before {
+	width: 409px;
+    height: 409px;
+    background-color: rgba(122,110,244,.07)
+}
+
+    
+/* END ВТОРОЙ СЛАЙДЕР СТАЖИРОВКИ*/
+
+
+
+
+
+
+
+
+
+/*ТРЕТИЙ СЛАЙДЕР ОТЗЫВОВ*/
+.slider-wrap {
+	height: 500px;
+	    -webkit-box-shadow: 0 22px 35px 0 rgba(0,0,0,.17), 0 55px 53px 0 rgba(0,0,0,.12);
+    box-shadow: 0 22px 35px 0 rgba(0,0,0,.17), 0 55px 53px 0 rgba(0,0,0,.12);
+}
+
+.item-wrapper {
+	width: 100%;
+	height: 100%;
+	padding: 6rem!important;
+	transition: 1s;
+}
+
+@media (min-width: 220px) and (max-width: 470px) {
+	.item-wrapper {
+		padding: 1rem !important;
+	}
+	.next,
+	.prev {
+		opacity: 0;
+	}
+}
+
+/*фото студентов*/
+.student-photo {
+	min-width: 223px;
+	height: 223px;
+}
+
+.img-third-slider-1 {
+	background:url(../img/student-1.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.img-third-slider-2 {
+	background:url(../img/student-2.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.img-third-slider-3 {
+	background:url(../img/student-3.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.reviews-name {
+    font: 800 25px/32px Circe,Arial,sans-serif;
+    color: #484848;
+}
+
+.reviews-position {
+    font: 400 20px/26px Circe,Arial,sans-serif;
+    color: rgba(75,89,94,.52);
+}
+
+.reviews-content {
+	font: 400 20px/26px Circe,Arial,sans-serif;
+    color: rgba(75,89,94,.91);
+}
+
+/*кнопки переключения слайдера*/
+.prev,
+.next {
+	width: 52px;
+	height: 52px;
+	top:45%;
+	cursor: pointer;
+}
+
+.next {
+	right: 10px;
+}
+
+.prev {
+	left: 10px;
+}
+/*END ТРЕТИЙ СЛАЙДЕР ОТЗЫВОВ*/

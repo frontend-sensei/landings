@@ -1,0 +1,174 @@
+html, body {
+	background-color: #000!important;
+	color:#95867f;
+	/*font-family: 'Pangolin', cursive;*/
+	/*font-family: 'Spectral SC', serif;*/
+	font-family: 'Neucha', cursive;
+	overflow-x: hidden;
+}
+
+/*---SPECIFICATIONS---*/
+.t {
+
+}
+.t16 {
+	font-size: 16px;
+}
+.t24 {
+	font-size: 24px;
+}
+.t60 {
+	font-size: 60px;
+}
+.t-b {
+	font-weight: bold;
+}
+.t-c {
+	text-align: center;
+}
+
+a.icon-a {
+    color: #fff;
+}
+a.icon-a:hover {
+	margin-top: 20px;
+	color: #797979;
+	transition: .6s;
+}
+a.icon-a:not(:hover) {
+	color: #fff;
+	transition: .6s;
+}
+a:hover {
+	text-decoration: none;
+	color: #fff;
+}
+a{
+	color: #fff;
+}
+h1,h2,h3,h4,h5 {
+	white-space: nowrap;
+}
+p {
+	text-indent: 1.5em;
+}
+hr {
+	border: 0;
+	height: 2px;
+	background: #333;
+	background-image: -webkit-linear-gradient(left, #000, #fff, #000);
+	background-image: -moz-linear-gradient(left, #000, #fff, #000);
+	background-image: -ms-linear-gradient(left, #000, #fff, #000);
+	background-image: -o-linear-gradient(left, #000, #fff, #000);
+}
+/*---END OF SPECIFICATIONS---*/
+.header {
+	width: 100%;
+	height: 100vh;
+	background: url(../img/use/1.jpg) center center no-repeat;
+	background-size: cover;
+
+  	-webkit-animation-duration: 2s!important;
+ 	 animation-duration: 2s!important;
+}
+
+.header .row {
+	position: absolute;
+    left: 50%;
+    top: 75%;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    font-size: 100px;
+    -webkit-animation-duration: 2.5s!important;
+ 	animation-duration: 2.5s!important;
+ 	animation-delay: 1s;
+}
+
+.scr-cost {
+	margin-top: 10px;
+	margin-bottom: 20px;
+	-webkit-box-shadow: -13px -10px 13px 0px #7b8b9b;
+	-moz-box-shadow: -13px -10px 13px 0px #7b8b9b;
+	box-shadow: -13px -10px 13px 0px #7b8b9b;
+}
+
+.scr-gre {
+	-webkit-box-shadow: 14px -9px 14px 0px #9b8c85d1;
+	-moz-box-shadow: 14px -9px 14px 0px #9b8c85d1;
+	box-shadow: 14px -9px 14px 0px #9b8c85d1;
+}
+
+/*BEGINIGNG*/
+.begining {
+	margin-top: 20px;
+}
+
+.begining img {
+	margin-bottom: 20px;
+}
+
+.album {
+	margin: 30px 0 30px 0;
+}
+
+.ur {
+	padding-top: 20px;
+	padding-left: 15px;
+}
+
+iframe {
+	margin-bottom: 20px;
+	-webkit-box-shadow: 1px 1px 13px 5px #2a232a;
+	-moz-box-shadow: 1px 1px 13px 5px #2a232a;
+	box-shadow: 1px 1px 13px 5px #2a232a;
+}
+
+.carousel {
+	margin-bottom: 50px;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+/*FOOTER*/
+.footer i {
+	color: #fff;
+	margin: 20px 10px;
+	transition: .5s;
+}
+.inst {
+	border-radius: .2em;
+}
+.inst:hover {
+	background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+	transition: .4s;
+}
+.viber:hover {
+	color: #c363fd;
+	transition: .4s;
+}
+.vk:hover {
+	color: #5181b8;
+	transition: .4s;
+}
+.face:hover {
+	color: #4867aa;
+	transition: .4s;
+}
+.you:hover {
+	color: #ff0000;
+	transition: .4s;
+}
+
+.mrj:hover {
+	color: #720ae0;
+	transition: .4s;
+}
+
+.street { 
+	box-shadow: -12px -14px 20px 0px #d19d52;
+}
+.mirrow { 
+	box-shadow: 16px -14px 20px 0px #598aac; 
+}

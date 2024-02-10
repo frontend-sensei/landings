@@ -1,0 +1,15 @@
+footer {
+    background: #36383a
+}
+
+.footer-title {
+    font: 500 34px/1.09 Circe,Arial,sans-serif
+}
+
+.footer-subtitle {
+    font: 500 20px/1.09 Circe,Arial,sans-serif 
+}
+
+footer iframe {
+	margin: 0 auto
+}

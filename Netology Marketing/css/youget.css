@@ -1,0 +1,9 @@
+.youget-item svg {
+    min-height: 24px; 
+    min-width: 24px
+}
+
+.youget-text {
+    color: rgb(60, 60, 60);
+    font: 400 17px/26px Circe, Arial, sans-serif
+}

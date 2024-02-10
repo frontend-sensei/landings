@@ -1,0 +1,41 @@
+.working {
+	max-height: 100%;
+	background: #f9fafc
+}
+
+.working-item-content {
+	color: #2f3236;
+	font: 400 16px/22px Circe,Arial,sans-serif
+}
+
+.working-text{
+    color: #5e5e5e
+}
+
+b {
+	color: #0094e8
+}
+
+.director-img {
+    flex: 0 0 87px;
+    height: 87px;
+    border-radius: 50%;
+    background-size: cover;
+	background-image: url(../img/avatar_director.jpg)
+}
+
+.director-text {
+	font: 400 22px/28px Circe,Arial,sans-serif;
+	color: #0094e8
+}
+
+.director-name {
+    color: #2f3236;
+    font: 800 17px/24px Circe,Arial,sans-serif;
+    font-weight: 500
+}
+
+.director-position {
+    color: #a9aeb5;
+    font: 800 17px/24px Circe,Arial,sans-serif
+}

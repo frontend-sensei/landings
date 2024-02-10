@@ -1,0 +1,22 @@
+.reviews {
+	background-image: linear-gradient(180deg,#fc978d,#f5899e),linear-gradient(240deg,#fac5bd,#fca4a5)
+}
+
+.slider-reviews {
+	box-shadow: rgba(0, 0, 0, 0.17) 0px 22px 35px 0px, rgba(0, 0, 0, 0.12) 0px 55px 53px 0px
+}
+
+.slider-title {
+	color: rgb(72, 72, 72);
+    font: 800 25px/32px Circe, Arial, sans-serif
+}
+
+.slider-subtitle {
+	color: rgba(75, 89, 94, 0.52);
+    font: 400 20px/26px Circe, Arial, sans-serif
+}
+
+.slider-content {
+    color: rgba(75, 89, 94, 0.91);
+    font: 400 20px/26px Circe, Arial, sans-serif
+}

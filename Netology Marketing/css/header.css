@@ -1,0 +1,102 @@
+.header-content {padding: 60px 20px 20px}
+.decoration{width: 122px; height: 8px}
+
+h1,
+.subtitle {
+	z-index: 1000
+}
+/* block with circles and icons*/
+.block-circles {
+    right: -10%;
+    top: 43%;
+    -webkit-transform: translate(-50%,-45%) scale(1.5);
+    transform: translate(-50%,-45%) scale(1.2);
+    width: 366px;
+    height: 366px;
+    background-color: rgba(145,136,254,.03)
+}
+.block-circles:before {
+	content:'';
+	position: absolute;
+	width: 279px;
+	height: 279px;
+	border-radius: 50%;
+	top: 12%;
+	left: 12%;
+	background: rgba(145,136,254,.12)
+}
+
+.block-circles:after {
+	content:'';
+	position: absolute;
+	width: 207px;
+	height: 207px;
+	border-radius: 50%;
+	top: 22%;
+	left: 22%
+}
+
+.header-icon {
+	-webkit-background-size: cover;
+	background-size: cover;
+	z-index: 10
+}
+
+.smm {
+	background-image: url(../img/smm.png);
+    top: 60px;
+    transform: scale(.8);
+	height: 105px;
+	width: 105px
+}
+.analytics {
+	background-image: url(../img/analytics.png);
+    top: 141px;
+    left: -39px;
+    height: 75px;
+    width: 75px
+}
+.adwords {
+	background-image: url(../img/adwords.png);
+	top: 184px;
+    transform: scale(.8);
+    height: 99px;
+    width: 99px
+}
+.yadirect {
+	background-image: url(../img/yadirect.png);
+	right: 0;
+    transform: scale(.7);
+    top: 40px;
+	height: 89px;
+	width: 89px
+}
+.email {
+	background-image: url(../img/email.png);
+    top: 127px;
+    right: -27px;
+    transform: scale(.8);
+	height: 86px;
+	width: 86px
+}
+.seo {
+	background-image: url(../img/seo.png);
+	top: 184px;
+	right: 0;
+	transform: scale(.8);
+	height: 117px;
+	width: 116px
+}
+/*end block with circles and icons*/
+
+/*info-items*/
+.info-item-title {
+	color: rgba(39,39,39,.48);
+    font: 400 14px/18px Circe,Arial,sans-serif
+}
+
+.info-item-content {
+	color: #686868;
+	font: 500 20px/28px Circe,Arial,sans-serif
+}
+/*end info-items*/

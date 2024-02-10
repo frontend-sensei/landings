@@ -1,0 +1,2 @@
+master.js - мой js не сжатый 
+master1.js- сжатый js

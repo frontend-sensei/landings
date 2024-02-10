@@ -1,0 +1,53 @@
+.audience-title {
+    font: 700 24px/28px Circe,Arial,sans-serif
+}
+
+.audience-content {
+    font: 400 16px/22px Circe,Arial,sans-serif;
+    color: #64696f
+}
+
+/*Секция как прохродит обучение*/
+.study-item {
+    flex-basis: 25%
+}
+
+.study-item-text {
+    font: 500 21px/31px Circe,Arial,sans-serif
+}
+
+.study-item-content {
+    font: 400 16px/22px Circe,Arial,sans-serif;
+    color: #64696f
+}
+
+.study-number-wrapper {
+    margin-left: -2px
+}
+
+.study-line {
+    height: 1px;
+    left: 22px;
+    top: 72px;
+    width: 78%;
+    background: #ddd
+}
+
+.study-number {
+    width: 48px;
+    height: 48px;
+    color: #7a6ef4;
+    font: 300 24px/48px Circe,Arial,sans-serif;
+    border: 1px solid #e8e8e8;
+    z-index: 10
+}
+
+.intership-subtitle {
+    font: 600 23px/30px Circe,Arial,sans-serif;
+    max-width: 690px
+}
+
+.carousel-item {
+    max-height: 320px;
+    max-width: 400px
+}

@@ -1,0 +1,120 @@
+.wrapper-diploma {
+    overflow: hidden
+}
+
+.diploma-bg {
+   top: 70%;
+   left: 50%
+}
+
+.diploma-bg:before,
+.diploma-bg:after {
+   position: absolute;
+   -webkit-transform: translate(-50%,-50%);
+   transform: translate(-50%,-50%)
+}
+    
+.diploma-bg:before {
+    content: "";
+    width: 610px;
+    height: 610px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    opacity: .06;
+    background-color: #605f6d;
+    border-radius: 50%;
+    top: -160px
+}
+
+.diploma-bg:after {
+    content: "";
+    opacity: .14;
+    background-color: #605f6d;
+    width: 470px;
+    height: 470px;
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+    border-radius: 50%;
+    top: -160px
+}
+
+.diploma-icon {
+    height: 150px
+}
+
+.diploma-icon svg {
+    clip-path: circle(58px at center);
+    transform: scale(1) translateY(1%)
+}
+
+.diploma-icon:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    background-color: hsla(0,0%,100%,.34);
+    left: 50%;
+    bottom: -30px
+}
+    
+.diploma-title {
+    font: 400 28px/57px Circe,Arial,sans-serif
+}
+
+.diploma-title:before {
+    content: "";
+    position: absolute;
+    width: 311px;
+    height: 140px;
+    border: 1px solid;
+    border-color: hsla(0,0%,100%,.34) transparent transparent hsla(0,0%,100%,.34);
+    border-radius: 20px 0 0 0;
+    left: -352px;
+    top: 30px
+}
+
+.diploma-title:after {
+    content: "";
+    position: absolute;
+    width: 311px;
+    height: 140px;
+    border: 1px solid;
+    border-color: hsla(0,0%,100%,.34) hsla(0,0%,100%,.34) transparent transparent;
+    border-radius: 0 20px 0 0;
+    right: -352px;
+    top: 30px
+}
+
+.diploma-subtitle {
+    font: 400 17px/22px Circe,Arial,sans-serif;
+    margin-bottom: 97px        
+}
+
+.diploma-featutes:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    background-color: hsla(0,0%,100%,.34);
+    left: 50%;
+    top: -45px
+}
+
+.feature-module {
+    flex-basis: 33.33333%
+}
+.feature-module__text {
+    font: 400 16px/22px Circe,Arial,sans-serif;
+    color: #525252
+}
+
+.btn-strat-study:before {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 24px;
+    background-color: hsla(0,0%,100%,.34);
+    left: 50%;
+    top: -45px
+}
+    
